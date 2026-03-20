@@ -82,7 +82,7 @@ pipeline
         stage('Sanity Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/girishon6/Sept2024_POM_Series_NaveenAutomationLabs.git'
+                    git 'https://github.com/girishon6/Feb2026POMSeries.git'
                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunner/testng_sanity.xml"
                     
                 }
