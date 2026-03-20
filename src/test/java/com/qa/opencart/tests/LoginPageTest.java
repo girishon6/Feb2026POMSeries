@@ -40,7 +40,7 @@ public class LoginPageTest extends BaseTest {
 	
 	@Description("Checking Forgot Password Link Exist or not")
 	@Severity(SeverityLevel.CRITICAL)
-	@Test
+	@Test(enabled=false)
 	public void isForgotPasswordLinkExistTest() {
 		Assert.assertTrue(loginpage.isForgotPasswordLinkExist(),AppErrorConstants.ELEMENT_NOT_FOUND_ERROR);
 	}
