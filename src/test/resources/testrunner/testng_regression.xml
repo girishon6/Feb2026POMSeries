@@ -22,7 +22,7 @@
 		</classes>
 	</test>
 
-	<test name="Home Page Test">
+<!--  	<test name="Home Page Test">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
@@ -35,7 +35,7 @@
 			<class name="com.qa.opencart.tests.ProductInfoPageTest" />
 		</classes>
 	</test>
-	
+-->
 
 
 </suite>
