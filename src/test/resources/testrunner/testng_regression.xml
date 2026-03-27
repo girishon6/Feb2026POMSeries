@@ -17,25 +17,28 @@
 
 	<test name="Login Page Test">
 		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="124.0"/>
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 
-<!--  	<test name="Home Page Test">
-		<parameter name="browser" value="firefox" />
+  	<test name="Home Page Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="113.0"/>
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
 	</test>
 	
 	<test name="ProductInfo Page Test">
-		<parameter name="browser"  value="edge"/>
+		<parameter name="browser"  value="chrome"/>
+		<parameter name="browserversion" value="126.0"/>
 		<classes>
 			<class name="com.qa.opencart.tests.ProductInfoPageTest" />
 		</classes>
 	</test>
--->
+
 
 
 </suite>
